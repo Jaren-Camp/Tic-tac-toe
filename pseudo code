@@ -1,0 +1,22 @@
+read in grid
+explain game
+
+do/while loop
+    check if game is won
+        if columns array has three x or o in a row
+        if rows have three in a row
+        if diagonal have three in a row
+         if true game won
+            display whatever x or o had three in a row won
+         if false continue the loop
+    get move
+        readkey 
+    check if it's an open space
+        is there an o or x
+            true - can't play there
+            false place o or x 
+    switch players
+        if player 1
+            change player 2
+            else player 1
+    start loop again until game is won
